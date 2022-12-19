@@ -9,10 +9,10 @@ namespace ecommerce_mvp_intro.presenter
 {
     public class EntityFactory
     {
-        public static Entity GetEntity(Product p)
+        public static Entity GetEntity(Verifica p)
         {
             Entity e=new Entity();
-            e.Id = p.Id;
+            e.Id = Convert.ToInt32(p.Id);
             e.Field1 = p.Name;
             e.Field3 = p.Description;
             e.Field2 = p.Manufacturer;

@@ -42,16 +42,17 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBoxManifacturer = new System.Windows.Forms.TextBox();
             this.buttonDelete = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // list
             // 
             this.list.HideSelection = false;
-            this.list.Location = new System.Drawing.Point(7, 112);
+            this.list.Location = new System.Drawing.Point(7, 85);
             this.list.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.list.MultiSelect = false;
             this.list.Name = "list";
-            this.list.Size = new System.Drawing.Size(510, 366);
+            this.list.Size = new System.Drawing.Size(554, 507);
             this.list.TabIndex = 0;
             this.list.UseCompatibleStateImageBehavior = false;
             this.list.View = System.Windows.Forms.View.Details;
@@ -178,11 +179,22 @@
             this.buttonDelete.Text = "Elimina";
             this.buttonDelete.UseVisualStyleBackColor = true;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(11, 70);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Carrello";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1054, 619);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.buttonDelete);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxManifacturer);
@@ -200,6 +212,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Basic Ecommerce Sample";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -221,6 +234,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBoxManifacturer;
         private System.Windows.Forms.Button buttonDelete;
+        private System.Windows.Forms.Label label2;
     }
 }
 

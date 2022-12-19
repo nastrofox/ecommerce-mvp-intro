@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 using System.Text.RegularExpressions;
 
-namespace Borelli_Verifica
+namespace ecommerce_mvp_intro
 {
     public class Verifica
     {

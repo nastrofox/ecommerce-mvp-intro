@@ -124,5 +124,9 @@ namespace ecommerce_mvp_intro.view
 
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

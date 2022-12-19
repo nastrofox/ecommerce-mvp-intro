@@ -9,7 +9,7 @@ using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace Borelli_Verifica
+namespace ecommerce_mvp_intro
 {
     public class Elenco
     {
