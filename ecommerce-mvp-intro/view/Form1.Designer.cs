@@ -59,7 +59,7 @@
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(530, 247);
+            this.buttonEdit.Location = new System.Drawing.Point(718, 436);
             this.buttonEdit.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(74, 42);
@@ -69,7 +69,7 @@
             // 
             // textBoxName
             // 
-            this.textBoxName.Location = new System.Drawing.Point(7, 42);
+            this.textBoxName.Location = new System.Drawing.Point(569, 165);
             this.textBoxName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(135, 20);
@@ -78,7 +78,7 @@
             // labelNome
             // 
             this.labelNome.AutoSize = true;
-            this.labelNome.Location = new System.Drawing.Point(7, 27);
+            this.labelNome.Location = new System.Drawing.Point(566, 150);
             this.labelNome.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelNome.Name = "labelNome";
             this.labelNome.Size = new System.Drawing.Size(35, 13);
@@ -88,7 +88,7 @@
             // labelID
             // 
             this.labelID.AutoSize = true;
-            this.labelID.Location = new System.Drawing.Point(7, 5);
+            this.labelID.Location = new System.Drawing.Point(847, 150);
             this.labelID.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelID.Name = "labelID";
             this.labelID.Size = new System.Drawing.Size(18, 13);
@@ -98,7 +98,7 @@
             // labelIDValue
             // 
             this.labelIDValue.AutoSize = true;
-            this.labelIDValue.Location = new System.Drawing.Point(27, 5);
+            this.labelIDValue.Location = new System.Drawing.Point(867, 150);
             this.labelIDValue.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelIDValue.Name = "labelIDValue";
             this.labelIDValue.Size = new System.Drawing.Size(0, 13);
@@ -107,7 +107,7 @@
             // LabelDescrizione
             // 
             this.LabelDescrizione.AutoSize = true;
-            this.LabelDescrizione.Location = new System.Drawing.Point(7, 67);
+            this.LabelDescrizione.Location = new System.Drawing.Point(566, 317);
             this.LabelDescrizione.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.LabelDescrizione.Name = "LabelDescrizione";
             this.LabelDescrizione.Size = new System.Drawing.Size(62, 13);
@@ -116,7 +116,7 @@
             // 
             // textBoxDescription
             // 
-            this.textBoxDescription.Location = new System.Drawing.Point(7, 82);
+            this.textBoxDescription.Location = new System.Drawing.Point(569, 332);
             this.textBoxDescription.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxDescription.Name = "textBoxDescription";
             this.textBoxDescription.Size = new System.Drawing.Size(383, 20);
@@ -125,7 +125,7 @@
             // labelPrezzo
             // 
             this.labelPrezzo.AutoSize = true;
-            this.labelPrezzo.Location = new System.Drawing.Point(311, 24);
+            this.labelPrezzo.Location = new System.Drawing.Point(566, 259);
             this.labelPrezzo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.labelPrezzo.Name = "labelPrezzo";
             this.labelPrezzo.Size = new System.Drawing.Size(39, 13);
@@ -134,7 +134,7 @@
             // 
             // textBoxPrice
             // 
-            this.textBoxPrice.Location = new System.Drawing.Point(310, 42);
+            this.textBoxPrice.Location = new System.Drawing.Point(565, 277);
             this.textBoxPrice.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxPrice.Name = "textBoxPrice";
             this.textBoxPrice.Size = new System.Drawing.Size(67, 20);
@@ -142,7 +142,7 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(530, 201);
+            this.buttonAdd.Location = new System.Drawing.Point(569, 436);
             this.buttonAdd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(74, 42);
@@ -153,7 +153,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(157, 27);
+            this.label1.Location = new System.Drawing.Point(566, 199);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 13);
@@ -162,7 +162,7 @@
             // 
             // textBoxManifacturer
             // 
-            this.textBoxManifacturer.Location = new System.Drawing.Point(157, 42);
+            this.textBoxManifacturer.Location = new System.Drawing.Point(566, 214);
             this.textBoxManifacturer.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBoxManifacturer.Name = "textBoxManifacturer";
             this.textBoxManifacturer.Size = new System.Drawing.Size(135, 20);
@@ -170,7 +170,7 @@
             // 
             // buttonDelete
             // 
-            this.buttonDelete.Location = new System.Drawing.Point(530, 293);
+            this.buttonDelete.Location = new System.Drawing.Point(878, 436);
             this.buttonDelete.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.buttonDelete.Name = "buttonDelete";
             this.buttonDelete.Size = new System.Drawing.Size(74, 42);
@@ -182,7 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 484);
+            this.ClientSize = new System.Drawing.Size(1054, 619);
             this.Controls.Add(this.buttonDelete);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBoxManifacturer);
